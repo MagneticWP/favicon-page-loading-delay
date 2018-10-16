@@ -1,0 +1,5 @@
+function add_favicon() {
+	echo '<link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAICAAAAAAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAA.......=" />';
+}
+
+add_action('wp_head', 'add_favicon');
